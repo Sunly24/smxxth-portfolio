@@ -3,3 +3,9 @@
 * {
   font-family: Outfit;
 }
+
+/* Add explicit -webkit- and standard backdrop-filter rules for broader browser support */
+.nav-backdrop {
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
