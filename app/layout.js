@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${outfitSans.className} ${ovoSans.className} antialiased`}
+        className={`${outfitSans.className} ${ovoSans.className} antialiased leading-8 overflow-x-hidden`}
       >
         {children}
       </body>
