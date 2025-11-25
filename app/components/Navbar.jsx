@@ -61,9 +61,9 @@ const Navbar = () => {
           <li>
             <a href="#about">About Me</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#services">Services</a>
-          </li>
+          </li> */}
           <li>
             <a href="#work">My Work</a>
           </li>
@@ -73,9 +73,9 @@ const Navbar = () => {
         </ul>
 
         <div className="flex items-center gap-4">
-          <button>
+          {/* <button>
             <Image src={assets.moon_icon} alt="" className="w-6" />
-          </button>
+          </button> */}
 
           <a
             href="#contact"
@@ -117,11 +117,11 @@ const Navbar = () => {
               About Me
             </a>
           </li>
-          <li>
+          {/* <li>
             <a onClick={closeMenu} href="#services">
               Services
             </a>
-          </li>
+          </li> */}
           <li>
             <a onClick={closeMenu} href="#work">
               My Work

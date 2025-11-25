@@ -35,6 +35,10 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import footer_bg_color from './footer-bg-color.png';
+import mysql from './mysql.png';
+import github from './github.png';
+import postman from './postman.png';
 
 export const assets = {
     user_image,
@@ -73,29 +77,37 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    footer_bg_color,
+    mysql,
+    github,
+    postman,
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'DERTAM APP',
+        description: 'Tourism APP',
         bgImage: '/work-1.png',
+        link: 'https://github.com/yourusername/dertam-app',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'MovieLand',
+        description: 'Web-App For Searching Movies',
         bgImage: '/work-2.png',
+        link: 'https://github.com/yourusername/movieland',
     },
+    // {
+    //     title: 'Photography site',
+    //     description: 'Web Design',
+    //     bgImage: '/work-3.png',
+    //     link: 'https://github.com/yourusername/photography-site',
+    // },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'JONGBAN-STORE',
+        description: 'Web-Application',
         bgImage: '/work-4.png',
+        link: 'https://jongban.e-khmer.com',
     },
 ]
 
@@ -107,11 +119,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, PHP/Laravel, Node Js, Python' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.D Computer Science spacialize in Computer Science' },
+    // { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Contribute and Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.mysql, assets.mongodb, assets.figma, assets.git, assets.github, assets.postman,
 ];
